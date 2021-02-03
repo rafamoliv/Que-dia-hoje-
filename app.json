@@ -1,12 +1,31 @@
 {
-  "name": "que-dia-e-hoje",
-  "displayName": "que-dia-e-hoje",
+  "name": "Que dia é hoje?",
+  "displayName": "Que dia é hoje?",
   "expo": {
     "name": "que-dia-e-hoje",
-    "slug": "que-dia-e-hoje",
+    "slug": "Que dia é hoje?",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
+  },
+
+  "ios": {
+    "bundleIdentifier": "com.rodeveloper.quediaehoje",
+    "supportsTablet": true,
+    "config": {
+      "googleMobileAdsAppId": "ca-app-pub-2851827333967207~7824882457"
+    }
+  },
+  "android": {
+    "package": "com.rodeveloper.quediaehoje",
+    "versionCode": 1,
+    "config": {
+      "googleMobileAdsAppId": "ca-app-pub-2851827333967207~7824882457"
+    },
+      
+    "adaptiveIcon": {
+      "backgroundColor": "#171515"
+    }
   }
 }
