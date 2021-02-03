@@ -11,6 +11,7 @@
     "android": {
       "package": "com.rodeveloper.quediaehoje",
       "versionCode": 1,
+      "permissions" : [],
     "config": {
       "googleMobileAdsAppId": "ca-app-pub-2851827333967207~7824882457"
     },
