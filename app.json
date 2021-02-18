@@ -4,20 +4,21 @@
   "expo": {
     "name": "Que dia é hoje?",
     "slug": "que-dia-e-hoje",
-    "version": "1.0.0",
+    "version": "1.2.2",
+    "icon": "./src/512.png",
     "assetBundlePatterns": [
       "**/*"
     ],
     "android": {
       "package": "com.rodeveloper.quediaehoje",
-      "versionCode": 1,
-      "permissions" : [],
-    "config": {
-      "googleMobileAdsAppId": "ca-app-pub-2851827333967207~7824882457"
-    },
-    "adaptiveIcon": {
-      "backgroundColor": "#171515"
-    }
+      "versionCode": 3,
+      "permissions": [],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2851827333967207~7824882457"
+      },
+      "adaptiveIcon": {
+        "backgroundColor": "#171515"
+      }
     }
   },
   "ios": {
